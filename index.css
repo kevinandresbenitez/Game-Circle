@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-flow: column  wrap;    
+}
+.container #menseje{
+    position: absolute;
+    font-size: 34px;
+    font-weight: 100;
+    font-family:monospace;
+}
+
+.container-game{
+    position: relative;
+    border: 1px solid blue;
+}
+
+.block{    
+    background-color: dodgerblue;
+    position: absolute;
+}
+
+#user{
+    background-color: darkgoldenrod;
+    position: absolute;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: darkgray;
+}
